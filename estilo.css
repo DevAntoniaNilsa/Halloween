@@ -1,0 +1,125 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: rgb(193, 127, 255);
+    color: black;
+}
+
+.cabecalho img {
+    margin-left: 40%;
+    margin-bottom: 0px;
+}
+
+a :link {
+    color: rgb(255, 255, 255);
+} 
+
+a :active {
+    color: chocolate;
+}
+
+a :hover {
+    color: yellow;
+}
+a {
+    text-decoration: none;
+}
+
+.menu {
+    background-color: coral;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.menu li {
+    margin: 30px;
+    font-size: 16pt;
+    
+}
+
+
+.apresentacao {
+    margin: 25%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.historia {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    margin: 30px;
+}
+
+.historia p {
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+table {
+    margin-left: 10%;
+    margin-right: 4%;
+}
+.banneringresso {
+    width: 50%;
+    margin: 3%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.programacao {
+    height: 600px;
+}
+.programacao p {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16pt;
+}
+
+.programacao h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(249, 213, 105);
+}
+.programacao h2 {
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(249, 213, 105);
+}
+
+.contato {
+    margin: 35%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    background: rgb(99, 80, 116);
+    width: 360px;
+    padding: 20px;
+    color: white;
+    font-size: 14pt;
+}
+
+footer {
+    background-color: rgb(193, 127, 255);
+    height: 25px;
+    text-align: center;
+   
+    
+}
+
+footer p {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
